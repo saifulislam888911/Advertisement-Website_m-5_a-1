@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.fst-part-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 400;
+}
+
+
+
+
+.orange-color{
+    color: orange;
+}
+
+
+
+
+#fst-part{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
