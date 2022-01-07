@@ -1,25 +1,61 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 100px;
 }
 
-.fst-part-h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 400;
+section{
+    margin-bottom: 100px;
 }
 
 
 
+
+
+.half-width{
+    width: 50%;
+    padding-left:5%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 5%;
+}
 
 .orange-color{
     color: orange;
 }
 
+.link-button{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-image: linear-gradient(salmon,tomato);
+    padding: 10px 35px;
+    border-radius: 5px;
+    
+}
+
+.fexibility-container{
+    display:flex;
+}
 
 
 
-#fst-part{
-    border-left: 10px solid;
+
+
+#h1-1stpart{
+    border-left: 5px solid;
     border-image: linear-gradient(salmon,tomato);
     border-image-slice: 1;
+}
+#h1-1stpart h1{
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 80px;
+    color: #333333;
+    padding-left: 15px;
 }
