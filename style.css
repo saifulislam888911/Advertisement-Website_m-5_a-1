@@ -2,7 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 100px;
 }
-
+p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 section{
     margin-bottom: 100px;
 }
@@ -55,7 +58,7 @@ section{
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
-    line-height: 80px;
+    line-height: 40px;
     color: #333333;
     padding-left: 15px;
 }
