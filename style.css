@@ -13,7 +13,13 @@ footer{
     background: black;
     color: white;
 }
-
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+}
 
 
 
