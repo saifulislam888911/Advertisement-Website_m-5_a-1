@@ -77,12 +77,21 @@ section{
 }
 
 #h1-2ndpart{   
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 31px;
-line-height: 70px;
-color: #13103A;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 70px;
+    color: #13103A;
+}
+
+#h1-3rdpart{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    color: #333333;
 }
 
 #mission{
@@ -105,4 +114,10 @@ color: #13103A;
     margin-right: 5%;
     background: #FFF4D6;
     border-radius: 26px;
+}
+
+#3rd-banner{
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
