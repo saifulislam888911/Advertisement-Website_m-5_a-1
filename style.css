@@ -3,23 +3,36 @@ body{
     margin: 100px;
 }
 p{
+    text-align: justify;
     margin-top: 35px;
     margin-bottom: 35px;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 footer{
-    background: black;
     color: white;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #0B0D17;
 }
-h1{
-    font-family: Poppins;
+footer h1{
+    font-family: 'Lobster', cursive;
     font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 30px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
 }
+footer p{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+
 
 
 
@@ -35,6 +48,9 @@ h1{
 
 .orange-color{
     color: orange;
+}
+.tomato-color{
+    color: tomato;
 }
 
 .link-button{
@@ -93,24 +109,48 @@ h1{
     font-size: 31px;
     line-height: 70px;
     color: #13103A;
+    padding-bottom: 40px;
 }
 
 #h1-3rdpart{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 25px;
+    line-height: 26px;
     color: #333333;
+    padding-top: 40px;
 }
+
 #h1-4thpart{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 25px;
+    line-height: 26px;
     color: #333333;
+    padding-top: 40px;
 }
+
+#h1-5thpart{   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 70px;
+    color: #13103A;
+    padding-bottom: 40px;
+}
+#h2-5thpart{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 26px;
+    color: #333333;
+    padding-top: 40px;
+}
+
 #mission{
     box-shadow: 10px 10px 40px rgb(212, 210, 210);
     margin-left: 5%;
@@ -133,8 +173,20 @@ h1{
     border-radius: 26px;
 }
 
-#3rd-banner{
-    background-image: url(image/shape-1.png);
+#third-banner{
+    background-image: url(image/shape1edit.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 10px 60px;
+   }
+
+#fourth-banner{
+    background-image: url(image/shape1edit.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+   }
+
+#fifth-banner{
+    background-image: url(image/neptune_icon_edit.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
